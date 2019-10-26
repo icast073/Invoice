@@ -7,4 +7,9 @@
   <ItemGroup>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Invoice.Services\Invoice.Services.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

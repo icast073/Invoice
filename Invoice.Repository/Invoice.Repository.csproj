@@ -8,12 +8,12 @@
     <Compile Remove="Class1.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Dto\" />
-    <Folder Include="Migration\" />
     <Folder Include="Interfaces\" />
+    <Folder Include="Implementations\" />
+    <Folder Include="Filter\" />
+    <Folder Include="Persistance\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <ProjectReference Include="..\Invoice.Data\Invoice.Data.csproj" />
   </ItemGroup>
 </Project>
