@@ -1,1 +1,0 @@
-﻿dotnet ef dbcontext Scaffold "Server=localhost;Initial Catalog=Invoice;Persist Security Info=False;User ID=root;Password=Ikoelig@1986;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"Microsoft.EntityFrameworkCore.SqlServer -o <directory name>
